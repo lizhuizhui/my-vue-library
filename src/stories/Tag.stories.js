@@ -12,8 +12,6 @@ const meta = {
     borderRadius: { control: 'number' },
     label: { control: 'text' },
   },
-  args: {
-  },
 };
 
 export default meta;
