@@ -1,4 +1,3 @@
-import { fn } from '@storybook/test';
 import Tag from '../components/Tag.vue';
 
 const meta = {
@@ -10,7 +9,7 @@ const meta = {
     backgroundColor: { control: 'color' },
     borderColor: { control: 'color' },
     borderRadius: { control: 'number' },
-    label: { control: 'text' },
+    label: {required:true, control: 'text' },
   },
 };
 
